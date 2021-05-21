@@ -48,7 +48,7 @@ function draw() {
       knife.velocityY=-10;
     }
 
-     if(knife.isTouchinng(wheel)){
+     if(knife.isTouching(wheel)){
        knife.velocityY=0;
        wheel.rotation=0;
        fruit1.x=startx;
